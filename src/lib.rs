@@ -46,8 +46,8 @@ use crate::density_estimation::{BuildDensityEstimator, DefaultEstimatorBuilder, 
 use crate::density_estimation::{HistogramEstimator, ParzenEstimator};
 use crate::range::{Range, RangeError};
 use ordered_float::OrderedFloat;
-use rand::distributions::Distribution;
 use rand::Rng;
+use rand_distr::Distribution;
 use std::num::NonZeroUsize;
 
 pub mod density_estimation;

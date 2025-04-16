@@ -11,14 +11,14 @@ categories = ["science"]
 license = "MIT"
 
 [badges]
-coveralls = {repository = "sile/tpe"}
+coveralls = { repository = "sile/tpe" }
 
 [dependencies]
-ordered-float = "2"
-rand = "0.8"
-rand_distr = "0.4"
-statrs = "0.15"
-thiserror = "1"
+ordered-float = "5"
+rand = "0.9"
+rand_distr = "0.5"
+statrs = "0.18"
+thiserror = "2"
 
 [dev-dependencies]
 anyhow = "1"
